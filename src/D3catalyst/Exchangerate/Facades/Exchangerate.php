@@ -1,6 +1,6 @@
 <?php 
  
-namespace D3catalyst\Exchangerate\Facades;
+namespace D3Catalyst\Exchangerate\Facades;
  
 use Illuminate\Support\Facades\Facade;
 /**

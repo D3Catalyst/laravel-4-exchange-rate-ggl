@@ -1,6 +1,6 @@
 <?php
  
-namespace D3catalyst\Exchangerate;
+namespace D3Catalyst\Exchangerate;
 
 /**
 *  Class Exchangerate.
