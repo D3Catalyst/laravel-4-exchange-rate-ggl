@@ -2,7 +2,6 @@
 /**
 *  Corresponding Class to test Exchangerate class.
 *
-*
 *  @author Ricardo Madrigal <soporte@d3catalyst.com>
 */
 class ExchangerateTest extends PHPUnit_Framework_TestCase{
