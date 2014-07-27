@@ -10,17 +10,19 @@
             "email": "dev@d3catalyst.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "4.2.*"
+        "php": ">=5.3.7",
+        "ext-curl" : "*",
+        "lib-curl" : "*"
+    },
+    "require-dev": {        
+        "phpunit/phpunit": "3.7.*",
+        "phpdocumentor/phpdocumentor": "2.*"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "D3catalyst\\Exchangerate\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
