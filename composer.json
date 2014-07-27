@@ -1,0 +1,26 @@
+{
+    "name": "d3catalyst/exchangerate",
+    "description": "Package currency exchange between two currencies",
+    "keywords": ["D3 Catalyst", "d3catalyst.com", "currency exchange rate", "exchange rate", "Google finances"],
+    "license": "MIT",
+    "homepage": "http://laravel.d3catalyst.com/l4-exchange-rate/",
+    "authors": [
+        {
+            "name": "D3Catalyst",
+            "email": "dev@d3catalyst.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "D3catalyst\\Exchangerate\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
