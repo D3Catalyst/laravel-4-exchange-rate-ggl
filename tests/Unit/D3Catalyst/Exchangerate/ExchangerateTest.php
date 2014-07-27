@@ -12,7 +12,7 @@ class ExchangerateTest extends PHPUnit_Framework_TestCase{
   *
   */
   public function testIsThereAnySyntaxError(){
-  	$var = new D3Catalyst\Exchangerate\Exchange;
+  	$var = new D3Catalyst\Exchangerate\Exchangerate;
   	$this->assertTrue(is_object($var));
   	unset($var);
   }
@@ -23,7 +23,7 @@ class ExchangerateTest extends PHPUnit_Framework_TestCase{
   *
   */
   public function testgetExchangeCurrency(){
-  	$var = new D3Catalyst\Exchangerate\Exchange;
+  	$var = new D3Catalyst\Exchangerate\Exchangerate;
     $var->setCurrency('USD','MXN');
   	$this->assertTrue(is_numeric($var->getExchangeValue()));
   	unset($var);
