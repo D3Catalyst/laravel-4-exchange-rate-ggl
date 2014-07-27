@@ -1,5 +1,4 @@
 <?php
- 
 namespace D3Catalyst\Exchangerate;
 
 /**
