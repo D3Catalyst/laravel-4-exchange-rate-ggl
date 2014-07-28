@@ -1,7 +1,7 @@
 laravel-4-exchangerate
 ===============
 
-[![Build Status](https://travis-ci.org/D3Catalyst/laravel-4-exchange-rate-ggl.svg?branch=master)](https://travis-ci.org/D3Catalyst/laravel-4-exchange-rate-ggl)  ![stable](http://img.shields.io/badge/stable-v%201.0.0-blue.svg)
+[![Build Status](https://travis-ci.org/D3Catalyst/laravel-4-exchange-rate-ggl.svg?branch=master)](https://travis-ci.org/D3Catalyst/laravel-4-exchange-rate-ggl) [![Latest Stable Version](https://poser.pugx.org/d3catalyst/exchangerate/v/stable.svg)](https://packagist.org/packages/d3catalyst/exchangerate) [![Total Downloads](https://poser.pugx.org/d3catalyst/exchangerate/downloads.svg)](https://packagist.org/packages/d3catalyst/exchangerate) [![Latest Unstable Version](https://poser.pugx.org/d3catalyst/exchangerate/v/unstable.svg)](https://packagist.org/packages/d3catalyst/exchangerate) [![License](https://poser.pugx.org/d3catalyst/exchangerate/license.svg)](https://packagist.org/packages/d3catalyst/exchangerate) ![stable](http://img.shields.io/badge/stable-v%201.0.0-blue.svg)
 
 Laravel 4 Library for calling http://rate-exchange.appspot.com/currency API.
 
