@@ -128,7 +128,7 @@ class Exchangerate {
 		if($this->exchange_data == NULL)
 			$this->exchange_data = $this->resolve();
 
-		return $this->exchange_data->v;
+		return $this->exchange_data;
 	}
 
 	/*
